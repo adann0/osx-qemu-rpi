@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Source : https://docs.j7k6.org/emulate-raspbian-buster-qemu-macos/
+
+wget https://raw.githubusercontent.com/dhruvvyas90/qemu-rpi-kernel/master/kernel-qemu-4.19.50-buster
+wget https://raw.githubusercontent.com/dhruvvyas90/qemu-rpi-kernel/master/versatile-pb.dtb
+wget http://director.downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-07-12/2019-07-10-raspbian-buster-lite.zip
+unzip 2019-07-10-raspbian-buster-lite.zip
